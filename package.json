@@ -1,0 +1,30 @@
+{
+  "name": "@avo-hq/stimulus-confetti",
+  "version": "0.1.1",
+  "private": false,
+  "description": "The easiest way to add confetti to your StimulusJS app.",
+  "type": "module",
+  "source": "src/index.js",
+  "exports": {
+    "require": "./dist/stimulus_confetti.cjs",
+    "default": "./dist/stimulus_confetti.modern.js"
+  },
+  "main": "./dist/stimulus_confetti.cjs",
+  "module": "./dist/stimulus_confetti.module.js",
+  "unpkg": "./dist/stimulus_confetti.umd.js",
+  "scripts": {
+    "build": "microbundle --globals @hotwired/stimulus=Stimulus",
+    "prepublish": "npm run build",
+    "dev": "microbundle watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adrian Marin <adrian@adrianthedev.com> (https://avohq.io)",
+  "license": "ISC",
+  "dependencies": {
+    "canvas-confetti": "^1.6.0"
+  },
+  "devDependencies": {
+    "@hotwired/stimulus": "^3.1.1",
+    "microbundle": "^0.15.1"
+  }
+}
