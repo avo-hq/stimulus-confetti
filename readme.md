@@ -114,4 +114,8 @@ Defaults to `false`.
 
 ### `particleCount`, `startVelocity`, `spread`, and `ticks`
 
-Controls various setting for the `canvas-confetti` package.
+Controls various setting for the [`canvas-confetti`](https://github.com/catdad/canvas-confetti) package.
+
+## Thanks
+
+This package is based on the [`canvas-confetti`](https://github.com/catdad/canvas-confetti) package, so please [donate](https://github.com/sponsors/catdad) to help them and support their work.
