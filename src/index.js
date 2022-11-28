@@ -19,7 +19,7 @@ class Confetti extends Controller {
       default: true
     },
 
-    // Type of animation basic|school-pride|fireworks|stars
+    // Type of animation basic|school-pride|stars
     animation: {
       type: String,
       default: 'basic'

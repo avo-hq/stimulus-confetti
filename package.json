@@ -1,6 +1,6 @@
 {
-  "name": "@avo-hq/stimulus-confetti",
-  "version": "0.1.1",
+  "name": "stimulus-confetti",
+  "version": "1.0.0",
   "private": false,
   "description": "The easiest way to add confetti to your StimulusJS app.",
   "type": "module",
