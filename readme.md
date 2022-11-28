@@ -7,9 +7,9 @@ Are you in the mood to add confetti to your stimulus application? You're in luck
 Add the package to your project.
 
 ```bash
-yarn add @avo-hq/stimulus-confetti
+yarn add stimulus-confetti
 # or
-npm install @avo-hq/stimulus-confetti
+npm install stimulus-confetti
 ```
 
 ## Register the stimulus controller
@@ -17,7 +17,7 @@ npm install @avo-hq/stimulus-confetti
 Register the controller in your Stimulus app.
 
 ```javascript
-import { Confetti } from "@avo-hq/stimulus-confetti"
+import { Confetti } from "stimulus-confetti"
 
 application.register('confetti', Confetti)
 ```
