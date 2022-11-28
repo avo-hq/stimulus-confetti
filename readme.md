@@ -2,6 +2,9 @@
 
 Are you in the mood to add confetti to your stimulus application? You're in luck! This package helps you do that in no-time.
 
+
+![The easiest way to add confetti to your Stimulus JS app](school-pride.gif)
+
 ## Install
 
 Add the package to your project.
@@ -51,6 +54,8 @@ There are three types of animation.
 >Star Avo</a>
 ```
 
+![](basic.gif)
+
 2. **School pride** which adds two cannons on each side of the screen
 
 ```html
@@ -64,6 +69,8 @@ There are three types of animation.
 >Star Avo</a>
 ```
 
+![](school-pride.gif)
+
 3. **Stars** which will spray stars from under your cursor
 
 ```html
@@ -75,6 +82,8 @@ There are three types of animation.
   data-animation-value="stars"
 >Star Avo</a>
 ```
+
+![](stars.gif)
 
 ## Configuration
 
