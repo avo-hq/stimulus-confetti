@@ -1,8 +1,21 @@
 {
   "name": "stimulus-confetti",
-  "version": "1.0.0",
-  "private": false,
+  "version": "1.0.1",
   "description": "The easiest way to add confetti to your StimulusJS app.",
+  "keywords": ["confetti", "stimulus", "stimulus js", "rails confetti", "ruby on rails confetti"],
+  "homepage": "https://github.com/avo-hq/stimulus-confetti",
+  "license": "MIT",
+  "author": "Adrian Marin <adrian@adrianthedev.com> (https://avohq.io)",
+  "url" : "https://github.com/avo-hq/stimulus-confetti",
+  "funding": {
+    "type" : "individual",
+    "url" : "https://github.com/sponsors/adrianthedev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/avo-hq/stimulus-confetti.git"
+  },
+  "private": false,
   "type": "module",
   "source": "src/index.js",
   "exports": {
@@ -18,8 +31,6 @@
     "dev": "microbundle watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Adrian Marin <adrian@adrianthedev.com> (https://avohq.io)",
-  "license": "ISC",
   "dependencies": {
     "canvas-confetti": "^1.6.0"
   },

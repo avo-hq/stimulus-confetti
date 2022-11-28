@@ -128,3 +128,9 @@ Controls various setting for the [`canvas-confetti`](https://github.com/catdad/c
 ## Thanks
 
 This package is based on the [`canvas-confetti`](https://github.com/catdad/canvas-confetti) package, so please [donate](https://github.com/sponsors/catdad) to help them and support their work.
+
+## Try Avo ⭐️
+
+If you enjoy this package try out Avo. It helps developers build internal tools, admins, CMSes, CRMs, and any other type of business apps 10x faster on top of Ruby on Rails.
+
+[![](./logo-on-white.png)](https://github.com/avo-hq/avo)
