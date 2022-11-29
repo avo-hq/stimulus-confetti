@@ -129,6 +129,10 @@ Controls various setting for the [`canvas-confetti`](https://github.com/catdad/c
 
 This package is based on the [`canvas-confetti`](https://github.com/catdad/canvas-confetti) package, so please [donate](https://github.com/sponsors/catdad) to help them and support their work.
 
+## Other packages
+
+ - `class_variants` - Easily configure styles and apply them as classes. Very useful when you're implementing Tailwind CSS components and call them with different states.
+
 ## Try Avo ⭐️
 
 If you enjoy this package try out Avo. It helps developers build internal tools, admins, CMSes, CRMs, and any other type of business apps 10x faster on top of Ruby on Rails.
