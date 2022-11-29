@@ -131,7 +131,7 @@ This package is based on the [`canvas-confetti`](https://github.com/catdad/canva
 
 ## Other packages
 
- - `class_variants` - Easily configure styles and apply them as classes. Very useful when you're implementing Tailwind CSS components and call them with different states.
+ - [`class_variants`](https://github.com/avo-hq/class_variants) - Easily configure styles and apply them as classes. Very useful when you're implementing Tailwind CSS components and call them with different states.
 
 ## Try Avo ⭐️
 
