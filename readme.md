@@ -40,7 +40,7 @@ When you click that link, the confetti will spray and after the animation finish
 
 ## Animation types
 
-There are three types of animation.
+There are three types of animation. Note: actions should match animation values.
 
 1. **Basic** which shoots of confetti under your mouse
 
