@@ -63,7 +63,7 @@ There are three types of animation.
   href="https://github.com/avo-hq/avo"
   target="_blank"
   data-controller="confetti"
-  data-action="click->confetti#spray"
+  data-action="click->confetti#schoolPride"
   data-animation-value="school-pride"
   data-duration-value="10"
 >Star Avo</a>
@@ -78,7 +78,7 @@ There are three types of animation.
   href="https://github.com/avo-hq/avo"
   target="_blank"
   data-controller="confetti"
-  data-action="click->confetti#spray"
+  data-action="click->confetti#stars"
   data-animation-value="stars"
 >Star Avo</a>
 ```
