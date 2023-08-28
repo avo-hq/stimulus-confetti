@@ -66,6 +66,8 @@ There are three types of animation. Note: actions should match animation values.
   data-action="click->confetti#schoolPride"
   data-animation-value="school-pride"
   data-duration-value="10"
+  data-confetti-first-color-value="#CC0000"
+  data-confetti-second-color-value="#0000FF"
 >Star Avo</a>
 ```
 
