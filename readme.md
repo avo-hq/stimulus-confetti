@@ -40,7 +40,7 @@ When you click that link, the confetti will spray and after the animation finish
 
 ## Animation types
 
-There are three types of animation.
+There are three types of animation. Note: actions should match animation values.
 
 1. **Basic** which shoots of confetti under your mouse
 
@@ -63,9 +63,11 @@ There are three types of animation.
   href="https://github.com/avo-hq/avo"
   target="_blank"
   data-controller="confetti"
-  data-action="click->confetti#spray"
+  data-action="click->confetti#schoolPride"
   data-animation-value="school-pride"
   data-duration-value="10"
+  data-confetti-first-color-value="#CC0000"
+  data-confetti-second-color-value="#0000FF"
 >Star Avo</a>
 ```
 
@@ -78,7 +80,7 @@ There are three types of animation.
   href="https://github.com/avo-hq/avo"
   target="_blank"
   data-controller="confetti"
-  data-action="click->confetti#spray"
+  data-action="click->confetti#stars"
   data-animation-value="stars"
 >Star Avo</a>
 ```
