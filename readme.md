@@ -50,7 +50,7 @@ There are three types of animation.
   target="_blank"
   data-controller="confetti"
   data-action="click->confetti#spray"
-  data-animation-value="basic"
+  data-confetti-animation-value="basic"
 >Star Avo</a>
 ```
 
@@ -64,8 +64,8 @@ There are three types of animation.
   target="_blank"
   data-controller="confetti"
   data-action="click->confetti#spray"
-  data-animation-value="school-pride"
-  data-duration-value="10"
+  data-confetti-animation-value="school-pride"
+  data-confetti-duration-value="10"
 >Star Avo</a>
 ```
 
@@ -79,7 +79,7 @@ There are three types of animation.
   target="_blank"
   data-controller="confetti"
   data-action="click->confetti#spray"
-  data-animation-value="stars"
+  data-confetti-animation-value="stars"
 >Star Avo</a>
 ```
 
@@ -87,41 +87,41 @@ There are three types of animation.
 
 ## Configuration
 
-### `data-animation-value`
+### `data-confetti-animation-value`
 
 Values can be `basic`, `school-pride`, or `stars` and will change the type of animation.
 
 Defaults to `basic`.
 
-### `follow`
+### `data-confetti-follow-value`
 
 Controls whether at the end of the animation, the browser should follow the link. You can set it to `false` when you want to test the animation.
 
 Defaults to `true`.
 
-### `duration`
+### `data-confetti-duration-value`
 
 The duration, in seconds, for the **School pride** animation.
 
 Defaults to `5`.
 
-### `first-color`
+### `data-confetti-first-color-value`
 
 The first color for the **School pride** animation.
 Defaults to `#0886DE`
 
-### `second-color`
+### `data-confetti-second-color-value`
 
 The second color for the **School pride** animation.
 Defaults to `#FF6154`
 
-### `debug`
+### `data-confetti-debug-value`
 
 Controls wether log messages are being displayed in the console.
 
 Defaults to `false`.
 
-### `particleCount`, `startVelocity`, `spread`, and `ticks`
+### `data-confetti-particleCount-value`, `data-confetti-startVelocity-value`, `data-confetti-spread-value`, and `data-confetti-ticks-value`
 
 Controls various setting for the [`canvas-confetti`](https://github.com/catdad/canvas-confetti) package.
 
