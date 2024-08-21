@@ -133,8 +133,9 @@ This package is based on the [`canvas-confetti`](https://github.com/catdad/canva
 
 ## Other packages
 
- - [`class_variants`](https://github.com/avo-hq/class_variants) - Easily configure styles and apply them as classes. Very useful when you're implementing Tailwind CSS components and call them with different states.
+- [`active_storage-blurhash`](https://github.com/avo-hq/active_storage-blurhash) - A plug-n-play [blurhash](https://blurha.sh/) integration for images stored in ActiveStorage
  - [`avo`](https://github.com/avo-hq/avo) - Build Content management systems with Ruby on Rails
+ - [`class_variants`](https://github.com/avo-hq/class_variants) - Easily configure styles and apply them as classes. Very useful when you're implementing Tailwind CSS components and call them with different states.
 
 ## Try Avo ⭐️
 
